@@ -1,0 +1,16 @@
+﻿<Window x:Class="AdaptableMgmtWPF.Login.Manager.WinManager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="ManagerWindow" Height="300" Width="400">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+            <Label Name="greetingLabel" Content="" FontSize="16" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            
+            <Button Name="Buttonlogin" Content="Entrar" Width="200" Height="40" Margin="0,0,0,10" Click="Buttonlogin_Click"/>
+            <Button Name="buttonRegister" Content="Cadastrar usuário" Width="200" Height="40" Click="buttonRegister_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

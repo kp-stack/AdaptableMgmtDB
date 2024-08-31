@@ -1,0 +1,22 @@
+﻿<Window x:Class="AdaptableMgmtWPF.Login.MainWindow"
+         
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdaptableMgmtWPF"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="800">
+
+    <!-- DESENVOLVIMENTO INICIADO NO DIA 24/08-->
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">
+            <Label Name="labelLogin" Content="Inicie sua sessão" Width="200" Height="30" HorizontalContentAlignment="Center" Margin="0,0,0,10"/>
+            <TextBox Name="loginUser" TextWrapping="Wrap" Text="" Width="200" Height="30" Margin="0,0,0,10"/>
+            <PasswordBox Name="labelPassword" Width="200" Height="30" Margin="0,0,0,10"/>
+            <Button Name="buttonLogin" Content="Entrar" Width="200" Height="30" Margin="0,0,0,10" Click="buttonLogin_Click"/>
+        </StackPanel>
+        <Button Name="buttonOut" Content="Sair" HorizontalAlignment="Left" Margin="300,302,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.471,-0.048" Width="64" Click="buttonOut_Click"/>
+    </Grid>
+</Window>

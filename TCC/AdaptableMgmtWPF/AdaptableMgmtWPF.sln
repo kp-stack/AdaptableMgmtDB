@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptableMgmtWPF", "AdaptableMgmtWPF.csproj", "{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE30136-43F0-4817-BA23-BBD5F126A4F1}
+	EndGlobalSection
+EndGlobal
