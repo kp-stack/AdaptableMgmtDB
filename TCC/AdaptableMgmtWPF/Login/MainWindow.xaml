@@ -15,7 +15,7 @@
             <Label Name="labelLogin" Content="Inicie sua sessão" Width="200" Height="30" HorizontalContentAlignment="Center" Margin="0,0,0,10"/>
             <TextBox Name="loginUser" TextWrapping="Wrap" Text="" Width="200" Height="30" Margin="0,0,0,10"/>
             <PasswordBox Name="labelPassword" Width="200" Height="30" Margin="0,0,0,10"/>
-            <Button Name="buttonLogin" Content="Entrar" Width="200" Height="30" Margin="0,0,0,10" Click="buttonLogin_Click"/>
+            <Button Name="buttonLogin" Content="Entrar" Width="200" Height="30" Margin="0,0,0,10" Click="buttonLogin_Click" IsDefault="True"/>
         </StackPanel>
         <Button Name="buttonOut" Content="Sair" HorizontalAlignment="Left" Margin="300,302,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.471,-0.048" Width="64" Click="buttonOut_Click"/>
     </Grid>

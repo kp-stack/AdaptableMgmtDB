@@ -107,6 +107,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Login\ConnectionFactory\ConnectionBuild.cs" />
     <Compile Include="Login\Manager\RegistrationMethods\DataUser.cs" />
     <Compile Include="Login\Manager\RegistrationMethods\SignInUser.cs" />
     <Compile Include="Login\Manager\RegistrationMethods\SignUpUser.cs" />

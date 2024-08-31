@@ -1,0 +1,20 @@
+Login
+|-- ConnectionFactory
+|   |-- ConnectionBuild.cs
+|
+Manager
+|-- RegistrationMethods
+|   |-- DataUser.cs
+|   |-- SignInUser.cs
+|   |-- SignUpUser.cs
+|
+|-- UserRegister
+|   |-- WinRegister.xaml
+|   |-- WinRegister2.xaml
+|   |-- WinManager.xaml
+|
+|-- Master
+|   |-- MainWindow.xaml
+|
+Program
+|-- WinHomeScreen.xaml

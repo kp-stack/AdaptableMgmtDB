@@ -1,4 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
+using AdaptableMgmtWPF.Login.ConnectionFactory;
+
+
+
 using System;
 using System.Windows;
 
@@ -8,6 +12,7 @@ namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
     {
         private string login;
         private string password;
+        private bool isManager;
 
         public SignInUser(string login, string password)
         {
@@ -15,31 +20,51 @@ namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
             this.password = password;
         }
 
-        public bool AuthenticateUser()
+        public (bool login, bool ismanager) AuthenticateUser()
         {
-            string connectionString = "Server=localhost;Port=3305;Database=adaptablemgmtdb;User Id=root;Password=1011007Grb#;";
+            //Instanciação da classe ConnectionBuild utilização do método Start() 
+            ConnectionBuild connectionBuild = new ConnectionBuild();
+            MySqlConnection connection = connectionBuild.Start();
 
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
-            {
-                connection.Open();
 
-                // Verifica se o usuário e a senha existem na tabela
-                string query = "SELECT COUNT(*) FROM user WHERE login_user = @login_user AND password_user = @password_user";
-                MySqlCommand cmd = new MySqlCommand(query, connection);
-                cmd.Parameters.AddWithValue("@login_user", login);
-                cmd.Parameters.AddWithValue("@password_user", password);
+            // Verifica se o usuário e a senha existem na tabela
+            string query = "SELECT COUNT(*) FROM login WHERE login_user = @login_user AND password_user = @password_user";
+            MySqlCommand cmd = new MySqlCommand(query, connection);
 
-                int userCount = Convert.ToInt32(cmd.ExecuteScalar());
+            // Define os parâmetros para o comando
+            cmd.Parameters.AddWithValue("@login_user", login);
+            cmd.Parameters.AddWithValue("@password_user", password);
 
-                if (userCount > 0)
-                {
-                    return true; // Login bem-sucedido
+            // Executa o comando para verificar o número de registros
+            int userCount = Convert.ToInt32(cmd.ExecuteScalar());
+
+            // Verifica o nível de acesso
+            string queryAccess = "SELECT acces_manager FROM login WHERE login_user = @login_user AND password_user = @password_user";
+            MySqlCommand command = new MySqlCommand(queryAccess, connection);
+
+            // Define os parâmetros para o comando de acesso
+            command.Parameters.AddWithValue("@login_user", login);
+            command.Parameters.AddWithValue("@password_user", password);
+
+            // Executa o comando para verificar se o usuário é um gerente
+            bool isManager = Convert.ToBoolean(command.ExecuteScalar());
+
+            // Fecha a conexão
+            connection.Close();
+
+            if (userCount > 0)
+                {   if (isManager)
+                    {
+                     return (true, isManager);
+
+                }
+                    return (true, false); ; // Login bem-sucedido
                 }
                 else
                 {
-                    return false; // Nome de usuário ou senha incorretos
-                }
+                return (false, false);// Nome de usuário ou senha incorretos
             }
+            
         }
     }
 }
