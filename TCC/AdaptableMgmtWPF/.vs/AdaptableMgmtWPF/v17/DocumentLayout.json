@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\login\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\login\\manager\\registrationmethods\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\manager\\registrationmethods\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\login\\manager\\registrationmethods\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\manager\\registrationmethods\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\login\\manager\\userregister\\winregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\manager\\userregister\\winregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\login\\manager\\registrationmethods\\signinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\manager\\registrationmethods\\signinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\login\\manager\\registrationmethods\\signupuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\manager\\registrationmethods\\signupuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUpUser.cs",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\RegistrationMethods\\SignUpUser.cs",
-              "RelativeDocumentMoniker": "Login\\Manager\\RegistrationMethods\\SignUpUser.cs",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\RegistrationMethods\\SignUpUser.cs",
-              "RelativeToolTip": "Login\\Manager\\RegistrationMethods\\SignUpUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T19:49:41.148Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -49,35 +32,35 @@
               "RelativeDocumentMoniker": "Login\\Manager\\RegistrationMethods\\SignInUser.cs",
               "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\RegistrationMethods\\SignInUser.cs",
               "RelativeToolTip": "Login\\Manager\\RegistrationMethods\\SignInUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T19:49:40.485Z",
+              "WhenOpened": "2024-09-08T19:47:18.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataUser.cs",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\RegistrationMethods\\DataUser.cs",
-              "RelativeDocumentMoniker": "Login\\Manager\\RegistrationMethods\\DataUser.cs",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\RegistrationMethods\\DataUser.cs",
-              "RelativeToolTip": "Login\\Manager\\RegistrationMethods\\DataUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Title": "WinRegister.xaml.cs",
+              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\UserRegister\\WinRegister.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\Manager\\UserRegister\\WinRegister.xaml.cs",
+              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\UserRegister\\WinRegister.xaml.cs",
+              "RelativeToolTip": "Login\\Manager\\UserRegister\\WinRegister.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAowFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T19:49:39.548Z",
+              "WhenOpened": "2024-09-08T13:01:02.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Login\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowCkAAAAzAAAA",
+              "Title": "DataUser.cs",
+              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\RegistrationMethods\\DataUser.cs",
+              "RelativeDocumentMoniker": "Login\\Manager\\RegistrationMethods\\DataUser.cs",
+              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Login\\Manager\\RegistrationMethods\\DataUser.cs",
+              "RelativeToolTip": "Login\\Manager\\RegistrationMethods\\DataUser.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwEkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T19:46:28.254Z",
+              "WhenOpened": "2024-08-31T19:49:39.548Z",
               "EditorCaption": ""
             }
           ]
