@@ -29,8 +29,13 @@ namespace AdaptableMgmtWPF
             InitializeComponent();
         }
 
+        public bool master { get; set; }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+
+            
 
             // Confere se não há nenhum campo vazio
             if (string.IsNullOrEmpty(FirstNameTextBox.Text) || string.IsNullOrEmpty(LastNameTextBox.Text) || string.IsNullOrEmpty(SalaryTextBox.Text)
@@ -51,7 +56,7 @@ namespace AdaptableMgmtWPF
             else
             {
 
-
+                
 
 
                 string firstName = FirstNameTextBox.Text;
@@ -65,30 +70,61 @@ namespace AdaptableMgmtWPF
                 string cep = PostalCodeTextBox.Text;
                 string cpf = CpfTextBox.Text;
 
-
-
-                DataUser registerUser = new DataUser(firstName, lastName, sallary, phone, address1, address2, city, state, cep, cpf);
-                bool registerWorks = registerUser.RegisterDataUser();
-
-                if (registerWorks)
+                if (master)
                 {
-                    MessageBox.Show("Dados salvos com sucesso\n Insira o Login e senha do novo usuário");
+                    DataUser registerUser = new DataUser(firstName, lastName, sallary, phone, address1, address2, city, state, cep, cpf, master);
+                    bool registerManagerWorks = registerUser.RegisterManagerData();
 
-                    WinRegister2 winRegister2 = new WinRegister2();
-                    winRegister2.Show();
-                    this.Close();
+                    if (registerManagerWorks)
+                    {
+                        MessageBox.Show("Dados salvos com sucesso\n Insira o Login e senha do novo gerente");
 
+                        WinRegister2 winRegister2 = new WinRegister2(true);
+                        winRegister2.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Ocorreu um erro. \n\n Você será redirecionado à tela principal");
+
+                        MainWindow mainWindow = new MainWindow();
+                        mainWindow.Show();
+                        this.Close();
+                    }
                 }
+
+
+
+
 
                 else
                 {
-                    MessageBox.Show("Ocorreu um erro. \n\n Você será redirecionado à tela principal");
 
-                    MainWindow mainWindow = new MainWindow();
-                    mainWindow.Show();
-                    this.Close();
+                    DataUser registerUser = new DataUser(firstName, lastName, sallary, phone, address1, address2, city, state, cep, cpf);
+                    bool registerWorks = registerUser.RegisterDataUser();
+
+                    if (registerWorks)
+                    {
+                        MessageBox.Show("Dados salvos com sucesso\n Insira o Login e senha do novo usuário");
+
+                        WinRegister2 winRegister2 = new WinRegister2();
+                        winRegister2.Show();
+                        this.Close();
+
+                    }
+
+                    else
+                    {
+                        MessageBox.Show("Ocorreu um erro. \n\n Você será redirecionado à tela principal");
+
+                        MainWindow mainWindow = new MainWindow();
+                        mainWindow.Show();
+                        this.Close();
+
+                    }
 
                 }
+               
 
                 
 

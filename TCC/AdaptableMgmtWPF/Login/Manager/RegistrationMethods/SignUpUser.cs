@@ -2,6 +2,7 @@
 using System.Windows;
 using MySql.Data.MySqlClient;
 using AdaptableMgmtWPF.Login.ConnectionFactory;
+using System.Data;
 
 namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
 {
@@ -10,6 +11,8 @@ namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
         private string login;
         private string password;
         bool master;
+        public static long UserId { get; set; }
+
 
         public SignUpUser(string login, string password)
         {
@@ -26,6 +29,7 @@ namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
             this.master = master;
             SignUpManager(login, password);
         }
+
 
         // Inserção de um novo usuário
         public void SignUp(string login, string password)
@@ -48,8 +52,18 @@ namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
             else
             {
                 // Inserção do novo usuário
-                string insertQuery = "INSERT INTO login (login_user, password_user) VALUES (@login_user, @password_user)";
+                string insertQuery = "INSERT INTO login (user_id,login_user, password_user) VALUES (@user_id, @login_user, @password_user)";
                 MySqlCommand insertCmd = new MySqlCommand(insertQuery, connection);
+
+
+
+                  // Recupera o user_id gerado
+                 long userId = insertCmd.LastInsertedId;
+
+
+                SignUpUser.UserId = DataUser.userId;
+
+                insertCmd.Parameters.AddWithValue("@user_id", userId);
                 insertCmd.Parameters.AddWithValue("@login_user", login);
                 insertCmd.Parameters.AddWithValue("@password_user", password);
 

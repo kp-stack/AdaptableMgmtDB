@@ -3,21 +3,12 @@
 CREATE DATABASE AdaptableMgmtDB;
 USE AdaptableMgmtDB;
 
--- Criação da tabela login
-CREATE TABLE login (
-    user_id INT(5) AUTO_INCREMENT PRIMARY KEY,
-    login_user VARCHAR(30) UNIQUE NOT NULL,
-    password_user VARCHAR(255) NOT NULL,
-    acces_master BOOLEAN DEFAULT FALSE,
-    acces_manager BOOLEAN DEFAULT FALSE,
-    acces_user BOOLEAN DEFAULT TRUE
-);
+
 
 -- Criação da tabela collaborator
 CREATE TABLE collaborator (
-    collaborator_id INT(5) AUTO_INCREMENT PRIMARY KEY,
-    user_id INT(5),
-    FOREIGN KEY (user_id) REFERENCES login(user_id),
+    user_id INT(5) AUTO_INCREMENT PRIMARY KEY,
+
     first_name VARCHAR(15) NOT NULL,
     last_name VARCHAR(15) NOT NULL,
     salary DOUBLE NOT NULL,
@@ -28,6 +19,18 @@ CREATE TABLE collaborator (
     city VARCHAR(30) NOT NULL,
     state VARCHAR(30) NOT NULL,
     postal_code VARCHAR(10),
+    acces_manager BOOLEAN DEFAULT FALSE,
+    acces_user BOOLEAN DEFAULT TRUE
+);
+
+-- Criação da tabela login
+CREATE TABLE login (
+    user_id INT(5)  AUTO_INCREMENT  PRIMARY KEY,
+    
+    FOREIGN KEY (user_id) REFERENCES collaborator(user_id),
+    login_user VARCHAR(30) UNIQUE NOT NULL,
+    password_user VARCHAR(255) NOT NULL,
+    acces_master BOOLEAN DEFAULT FALSE,
     acces_manager BOOLEAN DEFAULT FALSE,
     acces_user BOOLEAN DEFAULT TRUE
 );
@@ -66,8 +69,12 @@ CREATE TABLE product (
 -- Teste para verificar a criação da tabela login
 SELECT * FROM login;
 
+SELECT * FROM collaborator;
+
 -- Desabilita atualizações seguras para consultas
 SET SQL_SAFE_UPDATES = 0;
+
+drop database adaptablemgmtdb;
 
 -- Exemplo de consulta na tabela user (Nota: A tabela 'user' não está criada neste script, ajuste conforme necessário)
 -- SELECT * FROM user WHERE login_user = 'gabriel.leopoldob' AND password_user = '1011007Grb#';

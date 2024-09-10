@@ -32,10 +32,18 @@ namespace AdaptableMgmtWPF.Login
             //está condicional indica se é ou não user_master
             if (login == "leopoldo.batista" && password == "1011007Grb#")
             {
-                bool master = true;
+                
+
+                WinRegister winRegister = new WinRegister();
+                winRegister.master = true;
+                winRegister.Show();
+                this.Close();
+
+                /*
                 WinRegister2 login2 = new WinRegister2(master);
                 login2.Show();
                 this.Close();
+                */
             }
 
 
