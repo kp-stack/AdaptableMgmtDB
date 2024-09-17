@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\App.xaml
-5-181836282
+9261400954
 
-14-1324972458
+18-1517014306
 33651348820
-Login\MainWindow.xaml;Login\Manager\WinManager.xaml;Login\Manager\UserRegister\WinRegister.xaml;Login\Manager\UserRegister\WinRegister2.xaml;Program\WinHomeScreen.xaml;
+Login\MainWindow.xaml;Login\Manager\WinManager.xaml;Login\Manager\UserRegister\WinRegister.xaml;Login\Manager\UserRegister\WinRegister2.xaml;Program\UserControllers\Cart.xaml;Program\UserControllers\Stock.xaml;Program\UserControllers\Users.xaml;Program\UserControllers\Products.xaml;Program\WinHomeScreen.xaml;
 
-False
+True
 

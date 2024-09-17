@@ -7,14 +7,30 @@
         mc:Ignorable="d"
         Title="WinHomeScreen" Height="450" Width="800">
     <Grid>
-        <Label Content="Login realizado com sucesso" HorizontalAlignment="Left" Margin="36,32,0,0" VerticalAlignment="Top"/>
-        <Rectangle HorizontalAlignment="Left" Height="100" Margin="534,32,0,0" Stroke="Black" VerticalAlignment="Top" Width="239"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="661,145,0,0" VerticalAlignment="Top"/>
-        <Label HorizontalAlignment="Left" Margin="36,63,0,0" VerticalAlignment="Top">
-            <Label Content="Indice 1: Carnes"/>
-        </Label>
-        <Label Content="Indice 2: Frutas" HorizontalAlignment="Left" Margin="60,115,0,0" VerticalAlignment="Top"/>
-        <Label Content="Indice 3: Cereais" HorizontalAlignment="Left" Margin="44,141,0,0" VerticalAlignment="Top"/>
+        <!-- Botões para mudar de tela -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="56,157,0,0">
+            <Button Content="Produtos" Click="BtnProducts_Click"/>
+            <Button Content="Estoque" Click="BtnStock_Click"/>
+            <Button Content="Usuários" Click="BtnUsers_Click"/>
+            <Button Content="Carrinho" Click="BtnCart_Click"/>
+            <Button Content="Sair" Click="BtnOUT_Clicks"/>
 
+        </StackPanel>
+
+        <!-- ContentControl que vai exibir os UserControls -->
+        <ContentControl x:Name="TelaContentControl" Margin="155,59,88,40"/>
+
+        <!-- Define um Ellipse para exibir a foto do usuário -->
+        <Ellipse x:Name="UserPhotoEllipse" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35">
+            <!-- Defina a imagem como um Brush em código-behind -->
+            <Ellipse.Fill>
+                <ImageBrush/>
+            </Ellipse.Fill>
+            <!-- Adicione uma borda opcional ao redor da foto -->
+            <Ellipse.Stroke>
+                <SolidColorBrush Color="Gray"/>
+            </Ellipse.Stroke>
+            <Ellipse.StrokeThickness>3</Ellipse.StrokeThickness>
+        </Ellipse>
     </Grid>
 </Window>

@@ -120,6 +120,18 @@
     <Compile Include="Login\Manager\UserRegister\WinRegister2.xaml.cs">
       <DependentUpon>WinRegister2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Program\UserControllers\Cart.xaml.cs">
+      <DependentUpon>Cart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Program\UserControllers\Stock.xaml.cs">
+      <DependentUpon>Stock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Program\UserControllers\Users.xaml.cs">
+      <DependentUpon>Users.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Program\UserControllers\Products.xaml.cs">
+      <DependentUpon>Products.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Program\WinHomeScreen.xaml.cs">
       <DependentUpon>WinHomeScreen.xaml</DependentUpon>
     </Compile>
@@ -144,6 +156,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Login\Manager\UserRegister\WinRegister2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Program\UserControllers\Cart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Program\UserControllers\Stock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Program\UserControllers\Users.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Program\UserControllers\Products.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -181,6 +209,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Login\Master\" />
+    <Folder Include="Program\Assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

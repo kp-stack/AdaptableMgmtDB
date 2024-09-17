@@ -74,6 +74,7 @@ SELECT * FROM collaborator;
 -- Desabilita atualizações seguras para consultas
 SET SQL_SAFE_UPDATES = 0;
 
+drop table collaborator;
 drop database adaptablemgmtdb;
 
 -- Exemplo de consulta na tabela user (Nota: A tabela 'user' não está criada neste script, ajuste conforme necessário)
