@@ -1,19 +1,4 @@
-﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-
-
+﻿using System.Windows;
 using AdaptableMgmtWPF.Login.Manager.RegistrationMethods;
 using AdaptableMgmtWPF.Login;
 
@@ -47,23 +32,44 @@ namespace AdaptableMgmtWPF
             string login = loginTextbox.Text;
             string password = passwordBox.Password;
 
+            // Caso seja master
             if (master)
             {
-                new SignUpUser(login, password, master);
+                SignUpUser signUpUser = new SignUpUser(login, password, master);
+                (bool userExist, bool registerWorks) result = signUpUser.SignUpManager();
 
-                MainWindow mainWindow = new MainWindow();
-                mainWindow.Show();
-                this.Close();
+                if (result.userExist)
+                {
+                    MessageBox.Show("Nome de usuário já existe. Escolha outro.");
+                }
+
+                else if (result.registerWorks)
+                {
+                    MessageBox.Show("Cadastro realizado com sucesso!");
+                    MainWindow mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    this.Close();
+                }
             }
 
             else
             {
-            new SignUpUser(login, password);
+                SignUpUser signUpUser =  new SignUpUser(login, password);
+                (bool userExist, bool registerWorks) result = signUpUser.SignUp();
 
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            this.Close();
 
+                if (result.userExist)
+                {
+                    MessageBox.Show("Nome de usuário já existe. Escolha outro.");
+                }
+
+                else if (result.registerWorks)
+                {
+                    MessageBox.Show("Cadastro realizado com sucesso!");
+                    MainWindow mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    this.Close();
+                }
             }
         }
 

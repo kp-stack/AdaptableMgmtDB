@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\usercontrollers\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\usercontrollers\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\usercontrollers\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\usercontrollers\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\usercontrollers\\stock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\usercontrollers\\stock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\usercontrollers\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\usercontrollers\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\winhomescreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\winhomescreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\winhomescreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\winhomescreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\usercontrollers\\stock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\usercontrollers\\stock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\usercontrollers\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\usercontrollers\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\leopoldo\\development\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\program\\usercontrollers\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:program\\usercontrollers\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,123 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Products.xaml.cs",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Products.xaml.cs",
-              "RelativeDocumentMoniker": "Program\\UserControllers\\Products.xaml.cs",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Products.xaml.cs",
-              "RelativeToolTip": "Program\\UserControllers\\Products.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:33:09.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Stock.xaml.cs",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Stock.xaml.cs",
-              "RelativeDocumentMoniker": "Program\\UserControllers\\Stock.xaml.cs",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Stock.xaml.cs",
-              "RelativeToolTip": "Program\\UserControllers\\Stock.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:32:34.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Users.xaml.cs",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Users.xaml.cs",
-              "RelativeDocumentMoniker": "Program\\UserControllers\\Users.xaml.cs",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Users.xaml.cs",
-              "RelativeToolTip": "Program\\UserControllers\\Users.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:31:54.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.xaml",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Users.xaml",
-              "RelativeDocumentMoniker": "Program\\UserControllers\\Users.xaml",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Users.xaml",
-              "RelativeToolTip": "Program\\UserControllers\\Users.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-17T22:20:03.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Stock.xaml",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Stock.xaml",
-              "RelativeDocumentMoniker": "Program\\UserControllers\\Stock.xaml",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Stock.xaml",
-              "RelativeToolTip": "Program\\UserControllers\\Stock.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-17T22:19:32.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cart.xaml",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Cart.xaml",
-              "RelativeDocumentMoniker": "Program\\UserControllers\\Cart.xaml",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Cart.xaml",
-              "RelativeToolTip": "Program\\UserControllers\\Cart.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-17T22:19:18.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Products.xaml",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Products.xaml",
-              "RelativeDocumentMoniker": "Program\\UserControllers\\Products.xaml",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\UserControllers\\Products.xaml",
-              "RelativeToolTip": "Program\\UserControllers\\Products.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-17T22:19:06.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WinHomeScreen.xaml.cs",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\WinHomeScreen.xaml.cs",
-              "RelativeDocumentMoniker": "Program\\WinHomeScreen.xaml.cs",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\WinHomeScreen.xaml.cs",
-              "RelativeToolTip": "Program\\WinHomeScreen.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:03:54.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WinHomeScreen.xaml",
-              "DocumentMoniker": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\WinHomeScreen.xaml",
-              "RelativeDocumentMoniker": "Program\\WinHomeScreen.xaml",
-              "ToolTip": "C:\\Leopoldo\\Development\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\Program\\WinHomeScreen.xaml",
-              "RelativeToolTip": "Program\\WinHomeScreen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-17T21:53:00.614Z",
-              "EditorCaption": ""
             }
           ]
         }

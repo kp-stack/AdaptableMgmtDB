@@ -32,27 +32,26 @@ namespace AdaptableMgmtWPF.Login
             //está condicional indica se é ou não user_master
             if (login == "leopoldo.batista" && password == "1011007Grb#")
             {
-                
 
-                WinRegister winRegister = new WinRegister();
-                winRegister.master = true;
+                bool master = true;
+                WinRegister winRegister = new WinRegister(master);
                 winRegister.Show();
                 this.Close();
-
-                /*
-                WinRegister2 login2 = new WinRegister2(master);
-                login2.Show();
-                this.Close();
-                */
             }
 
 
             //Classes de verificação de login e senha
             else
             {
+
+                // Aqui é feita a instanciação da classe SignInUser com 2 parametros
                 SignInUser signInUser = new SignInUser(login, password);
+
+                // Aqui está presente o retorno do método AuthenticateUser  (se o usuário existe). sendo em tupla.
                 (bool login, bool isManager) result = signInUser.AuthenticateUser();
 
+
+                // Lógica do retorno obtido
                 if (result.login)
                 {
                     if (result.isManager)
@@ -72,33 +71,6 @@ namespace AdaptableMgmtWPF.Login
                 {
                     MessageBox.Show("Nome de usuário ou senha incorretos.");
                 }
-
-                /*  Pela a minha lógica freestyle saiu isso, mas apareceu que o C# está na versão 7.3 e que não suportava. ai o chatgpt traduziu pra ifs
-                switch (result)
-                {
-                    case (true, true):
-                        WinManager winManager = new WinManager();
-                        winManager.Show();
-                        this.Close();
-                    break;
-
-                    case (true, false):
-                         WinHomeScreen homeScreen = new WinHomeScreen();
-                         homeScreen.Show();
-                         this.Close();
-                         break;
-
-                    case (false, false):
-                        MessageBox.Show("Nome de usuário ou senha incorretos.");
-                        break;
-
-                    
-
-
-                }*/
-
-
-
             }
 
         }

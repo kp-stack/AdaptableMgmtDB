@@ -1,10 +1,38 @@
 ﻿using MySql.Data.MySqlClient;
 using AdaptableMgmtWPF.Login.ConnectionFactory;
-
-
-
 using System;
-using System.Windows;
+
+/*
+    Classe SignInUser:
+    Esta classe é responsável pela autenticação de usuários no sistema. Ela verifica as credenciais de login e senha fornecidas e determina se o usuário é um gerente ou um usuário comum.
+
+    - Atributos:
+        - login: Armazena o nome de usuário inserido.
+        - password: Armazena a senha inserida.
+
+    - Construtor:
+        - SignInUser(string login, string password):
+          Inicializa a classe com o nome de usuário e senha que serão verificados.
+
+    - Métodos:
+        - AuthenticateUser():
+            Este método autentica o usuário no sistema, verificando se as credenciais fornecidas existem no banco de dados. Além disso, ele verifica o nível de acesso do usuário (se é gerente ou não).
+            
+            Funcionamento:
+            1. Conecta ao banco de dados usando a classe `ConnectionBuild` e o método `Start()`.
+            2. Executa uma query que conta o número de registros na tabela `login` onde o nome de usuário e a senha correspondem aos fornecidos.
+            3. Executa uma segunda query para verificar se o campo `acces_manager` está definido como TRUE, indicando que o usuário é um gerente.
+            4. Se as credenciais forem válidas, o método retorna uma tupla com dois valores:
+                - `true` indicando que o login foi bem-sucedido.
+                - `true` ou `false` indicando se o usuário é gerente (TRUE) ou não (FALSE).
+            5. Se as credenciais forem inválidas, o método retorna `(false, false)`.
+
+    - Retorno:
+        - `(bool login, bool ismanager)`:
+            - `login`: Indica se o login foi bem-sucedido.
+            - `ismanager`: Indica se o usuário é um gerente (TRUE) ou não (FALSE).
+*/
+
 
 namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
 {
@@ -12,14 +40,16 @@ namespace AdaptableMgmtWPF.Login.Manager.RegistrationMethods
     {
         private string login;
         private string password;
-        private bool isManager;
 
+        // Construtor da classe
         public SignInUser(string login, string password)
         {
             this.login = login;
             this.password = password;
         }
 
+
+        // Método com retorno do tipo de login e se o login é válido
         public (bool login, bool ismanager) AuthenticateUser()
         {
             //Instanciação da classe ConnectionBuild utilização do método Start() 
