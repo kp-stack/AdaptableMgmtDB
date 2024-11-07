@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|C:\\Users\\User\\Documents\\tcc\\AdaptableMgmtDB\\TCC\\AdaptableMgmtWPF\\login\\mainwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|Form",
+      "AbsoluteMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|c:\\users\\user\\documents\\tcc\\adaptablemgmtdb\\tcc\\adaptablemgmtwpf\\login\\mainwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|Form",
       "RelativeMoniker": "D:0:0:{0F4062FF-A765-49B8-B54F-2A23A6DA7BFF}|AdaptableMgmtWPF.csproj|solutionrelative:login\\mainwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|Form"
     },
     {
@@ -102,7 +102,8 @@
               "RelativeToolTip": "Login\\MainWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T14:18:42.786Z"
+              "WhenOpened": "2024-10-30T14:18:42.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,7 +115,8 @@
               "RelativeToolTip": "Login\\MainWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T14:18:39.077Z"
+              "WhenOpened": "2024-10-30T14:18:39.077Z",
+              "EditorCaption": ""
             }
           ]
         }
