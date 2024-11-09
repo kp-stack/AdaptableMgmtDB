@@ -20,9 +20,12 @@ namespace AdaptableMgmtWPF.Program.UserControllers
     /// </summary>
     public partial class Cart : UserControl
     {
-        public Cart()
+        bool accesManager;
+
+
+        public Cart(bool accesManager)
         {
-            InitializeComponent();
+            InitializeComponent(); this.accesManager = accesManager;
         }
     }
 }

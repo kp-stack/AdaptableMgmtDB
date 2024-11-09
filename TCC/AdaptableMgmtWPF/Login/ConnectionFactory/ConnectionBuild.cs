@@ -20,7 +20,7 @@ namespace AdaptableMgmtWPF.Login.ConnectionFactory
             //string connectionString = "Server=localhost;Port=3305;Database=adaptablemgmtdb;User Id=root;Password=1011007Grb#;";
 
             //Máquina local Daniel:
-            //string connectionString = "Server=localhost;Port=3305;Database=adaptablemgmtdb;User Id=root;Password=1011007Grb#;";
+            //string connectionString = "Server=localhost;Port=3306;Database=adaptablemgmtdb;User Id=root;Password=1011007Grb#;";
 
 
             //Etec

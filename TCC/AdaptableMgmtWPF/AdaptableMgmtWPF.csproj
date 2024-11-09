@@ -132,6 +132,12 @@
     <Compile Include="Program\UserControllers\Products.xaml.cs">
       <DependentUpon>Products.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Program\UserControllers\WindowsRegister\RegisterCategory_Supplier.xaml.cs">
+      <DependentUpon>RegisterCategory_Supplier.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Program\UserControllers\WindowsRegister\RegisterSupplier.xaml.cs">
+      <DependentUpon>RegisterSupplier.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Program\WinHomeScreen.xaml.cs">
       <DependentUpon>WinHomeScreen.xaml</DependentUpon>
     </Compile>
@@ -172,6 +178,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Program\UserControllers\Products.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Program\UserControllers\WindowsRegister\RegisterCategory_Supplier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Program\UserControllers\WindowsRegister\RegisterSupplier.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

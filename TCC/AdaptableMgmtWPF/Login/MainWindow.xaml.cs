@@ -62,7 +62,7 @@ namespace AdaptableMgmtWPF.Login
                     }
                     else
                     {
-                        WinHomeScreen homeScreen = new WinHomeScreen();
+                        WinHomeScreen homeScreen = new WinHomeScreen(false);
                         homeScreen.Show();
                         this.Close();
                     }
