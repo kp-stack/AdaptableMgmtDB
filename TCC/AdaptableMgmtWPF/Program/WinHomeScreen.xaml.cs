@@ -9,7 +9,10 @@ namespace AdaptableMgmtWPF.Program
 {
     public partial class WinHomeScreen : Window
     {
-        public WinHomeScreen()
+
+        bool accesManager;
+
+        public WinHomeScreen(bool accesManager)
         {
             InitializeComponent();
 
@@ -19,6 +22,8 @@ namespace AdaptableMgmtWPF.Program
 
             // Aplica a imagem ao Ellipse
             UserPhotoEllipse.Fill = userImageBrush;
+
+            this.accesManager = accesManager;
         }
 
      
@@ -29,25 +34,25 @@ namespace AdaptableMgmtWPF.Program
 
         private void BtnProducts_Click(object sender, RoutedEventArgs e)
         {
-            UserControllers.Products products = new Products();
+            UserControllers.Products products = new Products(accesManager);
             TelaContentControl.Content = products;
         }
 
         private void BtnStock_Click(object sender, RoutedEventArgs e)
         {
-            Stock stock = new Stock();
+            Stock stock = new Stock(accesManager);
             TelaContentControl.Content = stock;
         }
 
         private void BtnUsers_Click(object sender, RoutedEventArgs e)
         {
-            Users users = new Users();
+            Users users = new Users(accesManager);
             TelaContentControl.Content = users;
         }
 
         private void BtnCart_Click(object sender, RoutedEventArgs e)
         {
-            Cart cart = new Cart();
+            Cart cart = new Cart(accesManager);
             TelaContentControl.Content = cart;
         }
 

@@ -47,7 +47,7 @@ namespace AdaptableMgmtWPF.Login.Manager
         //Abrir o programa
         private void Buttonlogin_Click(object sender, RoutedEventArgs e)
         {
-            WinHomeScreen winHomeScreen = new WinHomeScreen();
+            WinHomeScreen winHomeScreen = new WinHomeScreen(true);
             winHomeScreen.Show();
             this.Close();
         }

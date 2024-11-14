@@ -110,6 +110,25 @@ C:\Leopoldo\Development\TCC\AdaptableMgmtWPF\obj\Debug\Login\MainWindow.baml
 C:\Leopoldo\Development\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister.baml
 C:\Leopoldo\Development\TCC\AdaptableMgmtWPF\obj\Debug\Program\WinHomeScreen.g.cs
 C:\Leopoldo\Development\TCC\AdaptableMgmtWPF\obj\Debug\Program\WinHomeScreen.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.csproj.AssemblyReference.cache
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\WinManager.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister2.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Stock.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Users.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\WindowsRegister\RegisterCategory_Supplier.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\MainWindow.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\WinManager.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister2.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Cart.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Stock.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Users.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Products.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\WindowsRegister\RegisterCategory_Supplier.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\WinHomeScreen.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\App.g.cs
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF_MarkupCompile.cache
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF_MarkupCompile.lref
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\bin\Debug\AdaptableMgmtWPF.exe.config
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\bin\Debug\AdaptableMgmtWPF.exe
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\bin\Debug\AdaptableMgmtWPF.pdb
@@ -145,19 +164,12 @@ C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\bin\Debug\System.Me
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\bin\Debug\System.Numerics.Vectors.xml
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.csproj.AssemblyReference.cache
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\WinManager.baml
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister2.baml
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\MainWindow.g.cs
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\WinManager.g.cs
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister.g.cs
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister2.g.cs
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\WinHomeScreen.g.cs
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\App.g.cs
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF_MarkupCompile.cache
-C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF_MarkupCompile.lref
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\WindowsRegister\RegisterSupplier.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\WindowsRegister\RegisterSupplier.g.cs
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\MainWindow.baml
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Login\Manager\UserRegister\WinRegister.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Cart.baml
+C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Products.baml
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\WinHomeScreen.baml
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.g.resources
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.Properties.Resources.resources
@@ -166,6 +178,7 @@ C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Adaptable
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Adaptabl.F7C90FD8.Up2Date
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.exe
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.pdb
+<<<<<<< HEAD
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Users.baml
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Products.baml
 C:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Program\UserControllers\Cart.g.cs
@@ -238,3 +251,5 @@ C:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Adapt
 C:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\Adaptabl.F7C90FD8.Up2Date
 C:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.exe
 C:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\obj\Debug\AdaptableMgmtWPF.pdb
+=======
+>>>>>>> 67880638fddb90397c3fdb9990314ede6cd5d978

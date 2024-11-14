@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 FC:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Login\MainWindow.xaml;;
 FC:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Login\Manager\UserRegister\WinRegister.xaml;;
 FC:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\UserControllers\Cart.xaml;;
@@ -7,4 +8,11 @@ FC:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\UserCo
 FC:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\UserControllers\Users.xaml;;
 FC:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\UserControllers\Products.xaml;;
 FC:\Users\User\Documents\tcc\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\WinHomeScreen.xaml;;
+=======
+FC:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Login\MainWindow.xaml;;
+FC:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Login\Manager\UserRegister\WinRegister.xaml;;
+FC:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\UserControllers\Cart.xaml;;
+FC:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\UserControllers\Products.xaml;;
+FC:\Leopoldo\Development\AdaptableMgmtDB\TCC\AdaptableMgmtWPF\Program\WinHomeScreen.xaml;;
+>>>>>>> 67880638fddb90397c3fdb9990314ede6cd5d978
 

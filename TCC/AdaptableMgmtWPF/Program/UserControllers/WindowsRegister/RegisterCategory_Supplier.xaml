@@ -1,0 +1,23 @@
+﻿<Window x:Class="AdaptableMgmtWPF.Program.UserControllers.WindowsRegister.RegisterCategory_Supplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Registrar Categoria e Fornecedor"
+        Height="180" Width="400"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Registrar Categoria" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <TextBlock FontWeight="Bold"><Run Language="pt-br" Text="                  "/><Run Text="Nome da Categoria:"/></TextBlock>
+
+            <!-- Input para Categoria -->
+            <TextBox x:Name="CategoryNameTextBox" Width="250" Margin="0,0,0,10"/>
+            <Button Content="Registrar Categoria" Click="RegisterButton_Click" Width="200"/>
+
+
+            <!-- Botão para Registrar Categoria e Fornecedor -->
+        </StackPanel>
+    </Grid>
+</Window>
